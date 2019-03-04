@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		255A9BF3222CE6280021D1C4 /* ACUPDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255A9BF2222CE6280021D1C4 /* ACUPDViewController.swift */; };
+		255A9BF5222CE6390021D1C4 /* SOARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255A9BF4222CE6390021D1C4 /* SOARViewController.swift */; };
 		255E1317222CD1FF004CB1B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255E1316222CD1FF004CB1B1 /* AppDelegate.swift */; };
 		255E1319222CD1FF004CB1B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255E1318222CD1FF004CB1B1 /* ViewController.swift */; };
 		255E131C222CD200004CB1B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 255E131A222CD200004CB1B1 /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		255A9BF2222CE6280021D1C4 /* ACUPDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACUPDViewController.swift; sourceTree = "<group>"; };
+		255A9BF4222CE6390021D1C4 /* SOARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOARViewController.swift; sourceTree = "<group>"; };
 		255E1313222CD1FF004CB1B1 /* StaticApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StaticApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		255E1316222CD1FF004CB1B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		255E1318222CD1FF004CB1B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,8 +82,10 @@
 			isa = PBXGroup;
 			children = (
 				255E1316222CD1FF004CB1B1 /* AppDelegate.swift */,
-				255E1318222CD1FF004CB1B1 /* ViewController.swift */,
 				255E131A222CD200004CB1B1 /* Main.storyboard */,
+				255E1318222CD1FF004CB1B1 /* ViewController.swift */,
+				255A9BF2222CE6280021D1C4 /* ACUPDViewController.swift */,
+				255A9BF4222CE6390021D1C4 /* SOARViewController.swift */,
 				255E131D222CD202004CB1B1 /* Assets.xcassets */,
 				255E131F222CD202004CB1B1 /* LaunchScreen.storyboard */,
 				255E1322222CD202004CB1B1 /* Info.plist */,
@@ -198,7 +204,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				255E1319222CD1FF004CB1B1 /* ViewController.swift in Sources */,
+				255A9BF3222CE6280021D1C4 /* ACUPDViewController.swift in Sources */,
 				255E1317222CD1FF004CB1B1 /* AppDelegate.swift in Sources */,
+				255A9BF5222CE6390021D1C4 /* SOARViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
